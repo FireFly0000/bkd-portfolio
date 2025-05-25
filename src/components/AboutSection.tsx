@@ -85,8 +85,8 @@ function AboutSection() {
                 <div className="text-left">
                   <h4 className="font-semibold text-lg">Project Management</h4>
                   <p className="text-muted-foreground">
-                    Co-leading a frontend team to apply best practices with
-                    agile methodologies.
+                    Co-led a frontend team to apply best practices with agile
+                    methodologies.
                   </p>
                 </div>
               </div>
