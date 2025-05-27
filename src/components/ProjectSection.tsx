@@ -27,7 +27,15 @@ const projects = [
     description:
       "Led the development of GroupFlow, a visually engaging task management application using React and Django. Implemented a user-friendly interface with real-time collaboration features such as task updates and group communication. Utilized Bootstrap for a responsive and maintainable frontend design. Contributed to unit and integration testing of Django APIs to ensure backend reliability and performance.",
     image: "/projects/GroupFlowImg.JPG",
-    tags: ["React", "Django", "Bootstrap", "PostgreSQL", "HTML", "CSS"],
+    tags: [
+      "React",
+      "Django",
+      "Python",
+      "Bootstrap",
+      "PostgreSQL",
+      "HTML",
+      "CSS",
+    ],
     demoUrl: "",
     githubUrl: "https://github.com/FireFly0000/GroupFlow",
   },

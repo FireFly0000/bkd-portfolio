@@ -14,11 +14,20 @@ const experiences = [
       "Enhanced UI responsiveness with TailwindCSS, ensuring seamless performance across devices.",
       "Eliminated unnecessary re-renders of the expensive chart component by debugging with React DevTools. Optimized performance by 50%",
       "Improved data visualization by pre-processing patient test results data, maintaining the original ratio but with different scaling.",
+      "Reviewed, optimized, and implemented scalable API endpoints in the FastAPI framework with SQLAlchemy queries",
       "Tested and debugged backend APIs with Azure's SQL database to ensure compatibility with the deployed version.",
       "Reduced unnecessary API calls by 60% by implementing a deboucing mechanism on the live search bar.",
       "Improved scalability by converting frontend filtering to backend filtering, reducing filtering time up to 62%.",
     ],
-    tag: ["React", "TypeScript", "TailwindCSS", "Zustand", "Azure", "FastAPI"],
+    tag: [
+      "React",
+      "TypeScript",
+      "TailwindCSS",
+      "Zustand",
+      "Azure",
+      "FastAPI",
+      "Python",
+    ],
   },
 ];
 
