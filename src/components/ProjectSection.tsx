@@ -19,6 +19,7 @@ const projects = [
     image: "/projects/ELibImg.JPG",
     tags: ["React", "NodeJS", "Prisma", "PostgreSQL", "EC2", "S3", "AWS"],
     //demoUrl: "https://e-library-dashboard-fe-deployed.vercel.app/",
+    demoUrl: "",
     githubUrl: "https://github.com/FireFly0000/E-Library-Dashboard",
   },
   {
