@@ -15,7 +15,7 @@ const projects = [
     id: 2,
     title: "E-Library Dashboard",
     description:
-      "Designed an Interactive dashboard that helps share E-books with optimized pagination and filtering capabilities. Testing and using different techniques such as debouncing and rate limiting to improve performance of the live search feature. Fully utilizing AWS services such as EC2 and S3 for hosting and file storage. Significantly improved the performance of backend server by deploying on an EC2 instance with Ubuntu. (currently disabled due to charges)",
+      "Designed an Interactive dashboard that helps share E-books with optimized pagination and filtering capabilities. Testing and using different techniques such as debouncing and rate limiting to improve performance of the live search feature. Fully utilized and tested with AWS services such as EC2 and S3 for hosting and file storage. Significantly improved the performance of backend server by deploying on an EC2 instance with Ubuntu. (currently disabled due to charges)",
     image: "/projects/ELibImg.JPG",
     tags: ["React", "NodeJS", "Prisma", "PostgreSQL", "EC2", "S3", "AWS"],
     //demoUrl: "https://e-library-dashboard-fe-deployed.vercel.app/",
