@@ -212,6 +212,12 @@ export const ProjectsSection = () => {
                 ) : (
                   <></>
                 )}
+
+                <span className="text-2xl font-semibold">
+                  Note: Nodejs Server deployed on Google Cloud Run is cold
+                  start, initial run may take a moment
+                </span>
+
                 <div className="flex justify-between items-center">
                   <div className="flex space-x-3">
                     {project.demoUrl !== "" && (
