@@ -14,12 +14,12 @@ const projects = [
       {
         label: "Frontend Notable Works",
         items: [
-          "Enhanced dashboard responsiveness through UI state management optimization with Redux and React Redux Toolkit (RTK).",
-          "Streamlined GET queries/APIs efficiency and caching by 66.7% using RTK Query from 3ms to 1ms.",
-          "Streamlined important form submissions or UPDATE API calls using Redux Thunk functions to invalidate RTK's tags for refetch and toast messages.",
-          "Reduced unnecessary API calls by 60% by implementing a debouncing mechanism on live search bar.",
-          "Enhanced UI styling consistency and responsive design by streamlining color themes and typography with TailwindCSS and ShadCn, cutting boilerplate code by 18%.",
-          "Reduced deployment time by 25% with Vercel's automated deployments and caching, utilizing CI/CD pipelines for faster and more reliable updates.",
+          "Improved dashboard responsiveness by optimizing UI state management with Redux & React Redux Toolkit (RTK).",
+          "Streamlined GET APIs with RTK Query, enhanced performance & caching speed by ~67% (3ms to 1ms).",
+          "Streamlined form submissions & update APIs with Redux Thunk, enabling RTK tag invalidation and real-time toast notifications.",
+          "Cut unnecessary API calls by 60% with a debounced live search implementation.",
+          "Increased UI consistency & reduced boilerplate by 18% via unified color themes & typography using TailwindCSS & ShadCn.",
+          "Shortened deployment time by 25% using Vercel's CI/CD pipelines with automated caching.",
         ],
       },
       {
