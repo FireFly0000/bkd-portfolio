@@ -12,7 +12,7 @@ function HeroSection() {
           <div className="flex w-full items-center justify-center">
             <img
               src={MyPic}
-              className="object-contain sm:max-w-[480px] h-fit  gradient-border card-hover cursor-pointer"
+              className="object-contain sm:max-w-[480px] sm:h-fit gradient-border card-hover cursor-pointer"
             />
           </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">

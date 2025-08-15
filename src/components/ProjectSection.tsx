@@ -179,9 +179,6 @@ export const ProjectsSection = () => {
                         <div
                           className="flex items-center gap-2 text-primary w-fit cursor-pointer"
                           onClick={() => handleProjectItemsDetailClick(index)}
-                          onTouchEnd={() =>
-                            handleProjectItemsDetailClick(index)
-                          }
                         >
                           <span className="text-xl text-start font-semibold underline">
                             {item.label}
