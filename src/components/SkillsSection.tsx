@@ -4,19 +4,21 @@ import { cn } from "../lib/utils";
 const skills = [
   // Frontend
   { name: "HTML/CSS", level: 95, category: "frontend" },
-  { name: "JavaScript", level: 95, category: "frontend" },
+  { name: "TypeScript/JavaScript", level: 97, category: "frontend" },
   { name: "React", level: 95, category: "frontend" },
-  { name: "TypeScript", level: 95, category: "frontend" },
-  { name: "Tailwind CSS", level: 90, category: "frontend" },
+  { name: "Tailwind CSS", level: 95, category: "frontend" },
+  { name: "ShadCn", level: 90, category: "frontend" },
   { name: "React Native", level: 90, category: "frontend" },
   { name: "Zustand", level: 95, category: "frontend" },
-  { name: "Redux", level: 90, category: "frontend" },
+  { name: "Redux", level: 95, category: "frontend" },
+  { name: "RTK Query", level: 95, category: "frontend" },
 
   // Backend
   { name: "Node.js", level: 95, category: "backend" },
   { name: "Express", level: 95, category: "backend" },
   { name: "Prisma", level: 95, category: "backend" },
-  { name: "Java Spring Boot", level: 90, category: "backend" },
+  { name: "Redis", level: 90, category: "backend" },
+  { name: "Java Spring Boot", level: 40, category: "backend" },
   { name: "FastAPI", level: 90, category: "backend" },
   { name: "Django", level: 90, category: "backend" },
   { name: "PostgreSQL", level: 95, category: "backend" },
@@ -24,8 +26,9 @@ const skills = [
 
   // Tools
   { name: "Git/GitHub", level: 95, category: "tools" },
-  { name: "Docker", level: 60, category: "tools" },
-  { name: "AWS", level: 85, category: "tools" },
+  { name: "Docker", level: 95, category: "tools" },
+  { name: "AWS", level: 90, category: "tools" },
+  { name: "Google Cloud", level: 90, category: "tools" },
 ];
 
 const categories = ["all", "frontend", "backend", "tools"];

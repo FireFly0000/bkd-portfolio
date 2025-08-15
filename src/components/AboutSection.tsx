@@ -18,7 +18,7 @@ function AboutSection() {
             <p className="text-muted-foreground">
               With professional experience in web development, I focus on full
               stack development using modern technologies and frameworks.
-              Specializing in React, Node.js, and Java Spring Boot.
+              Specializing in React and Nodejs.
             </p>
 
             <p className="text-muted-foreground">
@@ -57,7 +57,8 @@ function AboutSection() {
                   </h4>
                   <p className="text-muted-foreground">
                     Creating responsive UI features using React and its diverse
-                    ecosystem of libraries.
+                    ecosystem of libraries and tools such as TailwindCSS and
+                    Redux.
                   </p>
                 </div>
               </div>
@@ -71,7 +72,7 @@ function AboutSection() {
                   <h4 className="font-semibold text-lg">Backend Development</h4>
                   <p className="text-muted-foreground">
                     Designing database schemas and building efficient RESTful
-                    APIs using Node.js and Java Spring Boot.
+                    APIs using Node.js with Prisma, Redis, and AWS.
                   </p>
                 </div>
               </div>

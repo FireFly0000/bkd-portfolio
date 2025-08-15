@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { SlideDown } from "react-slidedown";
 import "react-slidedown/lib/slidedown.css";
-import { Youtube } from "lucide-react";
+import { Youtube, ArrowRight } from "lucide-react";
 import { cn } from "../lib/utils";
 
 const experiences = [
@@ -12,11 +12,11 @@ const experiences = [
     description: [
       "Engineered a Patient Dashboard on a tailwindCSS based web application with React and TypeScript, featuring user-friendly timelines and charts from Figma.",
       "Enhanced UI responsiveness with TailwindCSS, ensuring seamless performance across devices.",
+      "Collaborated with UI/UX designers to closely replicate Figma designs and deliver pixel-perfect features on the Frontend",
       "Eliminated unnecessary re-renders of the expensive chart component by debugging with React DevTools. Optimized performance by 50%",
       "Improved data visualization by pre-processing patient test results data, maintaining the original ratio but with different scaling.",
       "Reviewed, optimized, and implemented scalable API endpoints in the FastAPI framework with SQLAlchemy queries",
       "Tested and debugged backend APIs with Azure's SQL database to ensure compatibility with the deployed version.",
-      "Reduced unnecessary API calls by 60% by implementing a deboucing mechanism on the live search bar.",
       "Improved scalability by converting frontend filtering to backend filtering, reducing filtering time up to 62%.",
     ],
     tag: [
@@ -51,10 +51,18 @@ function ExperienceSection() {
             >
               {/*Title and Date*/}
               <div className="p-6 pb-4">
-                <div className="flex flex-wrap gap-2 text-2xl md:text-3xl font-bold">
-                  {item.title} - {item.company}
+                <div className="flex justify-between items-start">
+                  <div className="flex gap-2 text-xl md:text-2xl font-bold text-start">
+                    {item.title} - {item.company}
+                  </div>
+                  <ArrowRight
+                    className={`ml-2 transition-all duration-200 ${
+                      currentId === index ? "rotate-90" : ""
+                    }`}
+                    size={32}
+                  />
                 </div>
-                <p className=" flex flex-wrap text-xl text-muted-foreground">
+                <p className=" flex flex-wrap text-lg text-muted-foreground">
                   {item.date}
                 </p>
               </div>

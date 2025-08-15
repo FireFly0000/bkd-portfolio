@@ -1,4 +1,5 @@
 import { ArrowDown } from "lucide-react";
+import MyPic from "/my-pic.jpg";
 
 function HeroSection() {
   return (
@@ -7,7 +8,13 @@ function HeroSection() {
       className="relative min-h-screen flex flex-col items-center justify-center px-4"
     >
       <div className="container max-w-4xl mx-auto text-center z-10">
-        <div className="space-y-6">
+        <div className="space-y-6 mt-25">
+          <div className="flex w-full items-center justify-center">
+            <img
+              src={MyPic}
+              className="object-contain sm:max-w-[480px] h-fit  gradient-border card-hover cursor-pointer"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
             <span className="opacity-0 animate-fade-in"> Hi, I'm</span>
             <span className="text-primary opacity-0 animate-fade-in-delay-1">
@@ -35,7 +42,7 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 flex flex-col items-center animate-bounce">
+      <div className="mt-10 flex flex-col items-center animate-bounce">
         <span className="text-sm text-muted-foreground mb-2"> Scroll </span>
         <ArrowDown className="h-5 w-5 text-primary" />
       </div>
