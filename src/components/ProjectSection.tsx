@@ -50,6 +50,7 @@ const projects = [
     ],
     demoUrl: "https://e-library-dashboard-fe-deployed.vercel.app/",
     githubUrl: "https://github.com/FireFly0000/E-Library-Dashboard",
+    note: "Nodejs Server is cold start, initial run may be slow",
   },
   {
     id: 2,
@@ -145,7 +146,7 @@ export const ProjectsSection = () => {
                 />
               </div>
 
-              <div className="p-6">
+              <div className="p-6 items-start flex flex-col">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map((tag) => (
                     <span className="px-3 py-1 text-md font-medium border rounded-full bg-primary text-primary-foreground">
@@ -166,7 +167,7 @@ export const ProjectsSection = () => {
 
                 {/*For projects with more details*/}
                 {project.details ? (
-                  <div className="flex flex-col mt-4 mb-8 gap-4">
+                  <div className="flex flex-col my-4 gap-4">
                     {project.details.map((item, index) => (
                       <div
                         key={index}
@@ -213,12 +214,13 @@ export const ProjectsSection = () => {
                   <></>
                 )}
 
-                <span className="text-2xl font-semibold">
-                  Note: Nodejs Server deployed on Google Cloud Run is cold
-                  start, initial run may take a moment
-                </span>
+                {project.note && (
+                  <span className="my-4 text-lg font-semibold text-start">
+                    Note: {project.note}
+                  </span>
+                )}
 
-                <div className="flex justify-between items-center">
+                <div className="flex justify-between items-center mt-2">
                   <div className="flex space-x-3">
                     {project.demoUrl !== "" && (
                       <a
