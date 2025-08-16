@@ -69,7 +69,7 @@ function ExperienceSection() {
               {/*Title and Date*/}
               <SlideDown>
                 {currentId === index && (
-                  <div className="flex-col text-start gap-4 p-4 pt-0">
+                  <div className="flex flex-col text-start gap-2 p-4 pt-0">
                     {item.description.map((desc, key) => (
                       <p
                         key={key}
